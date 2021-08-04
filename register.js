@@ -10,11 +10,11 @@ var gender = document.getElementById("gender").value;
     var dose=document.getElementById(dose).value;
     
     // Validate name
-    if(uname == "") {
+    if(name == "") {
         printError("nameErr", "Please enter your name");
     } else {
         var regex = /^[a-zA-Z\s]+$/;                
-        if(regex.test(uname) === false) {
+        if(regex.test(name) === false) {
             printError("nameErr", "Please enter a valid name");
         } else {
             printError("nameErr", "");

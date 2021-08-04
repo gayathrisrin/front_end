@@ -1,14 +1,15 @@
-function show()
-{
- var name=document.getElementById("name").value;
- var password=document.getElementById("password").value;
-var regex=/^[a-zA-Z0-9]*$/;
-if (name==null || name=="")
-{
-alert("Name can't be blank");
-return false;
-}
-else if(password.length<6){
-    alert ("matches");
-}
-}
+
+ function validate() {
+     var username = document.getElementById("username").value;
+ var password = document.getElementById("password").value;
+ if (username == null || username == "") {
+   alert("Please enter the username.");
+ return false;
+    }
+ if (password == null || password == "") {
+   alert("Please enter the password.");
+ return false;
+ }
+ alert('Login successful');
+            
+  } 
