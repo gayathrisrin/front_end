@@ -1,0 +1,90 @@
+*
+{
+    margin:0%;
+    padding:0%;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(covid.jpg);
+    height: 150vh;
+    background-size:cover;
+    background-position: center;
+}
+.main-nav 
+{
+   float:right;
+   list-style:none ;
+   margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+   color:white;
+   text-decoration:none;
+   padding:5px 20px;
+font-family: "Roboto",sans-serif;
+font-size:15px;
+}
+.main-nav li.active a
+{
+    border:1px solid darkorchid;
+}
+.main-nav li.active a:hover
+{
+    border:1px solid darkorchid;
+    background-color: darkorchid;
+}
+.logo img{
+    width: 120px;
+    top: auto;
+    height:auto;
+    float:left;
+}
+.body
+{
+    font-family: monospace;
+}
+.row
+{
+max-width: 1200px;
+margin:auto;
+}
+.Vaccine
+{
+position: absolute;
+width: 1200px;
+margin-left: 0%;
+margin-top: 0%;
+}
+h1
+{
+    color: white;
+    font-size: 70px;
+    text-align:center;
+    margin-top: 275px;
+}
+.button
+{
+  margin-top: 30px;
+  margin-left: 440px; 
+}
+.btn{
+ border:2px solid white;
+  padding:10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px; 
+}
+.btn1:hover
+{
+  background-color: darkorange;  
+  font-family:"Roboto",sans-serif; 
+}
+.btn2:hover
+{
+  background-color: darkorange;  
+  font-family:"Roboto",sans-serif; 
+}
+

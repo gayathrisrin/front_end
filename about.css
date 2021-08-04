@@ -1,0 +1,33 @@
+ body{
+        
+        box-sizing: border-box;
+        box-shadow: 20%;
+        background-image: url(new.jpg);
+        background-size:cover;
+        background-position: center;
+        font-family: sans-serif;
+        
+    }
+  
+  .row {
+    margin:0%
+    
+  }
+  body h1{
+      text-align: center;
+  }
+  
+  .details
+  {
+      padding:20px;
+      text-align:justify;
+  }
+  .details h4{
+      font-weight:600 ;
+      margin-top:20px ;
+  }
+  p{
+      font-family: sans-serif;
+      font-size: 24px;
+      background: transparent;
+  }

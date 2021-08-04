@@ -1,0 +1,27 @@
+header{
+    background-image: url(bg.jpg);
+    height: 150vh;
+    background-size:cover;
+    background-position: center;
+}
+.contact
+{
+position: absolute;
+width: 1200px;
+margin-left: 0%;
+margin-top: 0%;
+}
+h1
+{
+    color: white;
+    font-size: 70px;
+    text-align:center;
+    margin-top: 275px;
+}
+ p
+{
+    color: white;
+    font-size: 60px;
+    text-align:center;
+    
+}
