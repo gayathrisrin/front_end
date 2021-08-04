@@ -1,4 +1,11 @@
 # front_end
+
+# Description
+This Frontend project means about Covid19 Login and Registration validation. It has #home.html,#About,#Contact..
+In #login ..this part checks the user entering valid username and password .first user enter username and password if they already registered 
+if not or your a new user (select Register now) .#Register here.. in this new user enters  the details. 
+
+#sanpshot
 ![REGISTER NOW - Google Chrome 04_08_2021 9_29_24](https://user-images.githubusercontent.com/88303467/128203183-67708b7a-7648-4e34-a48a-d9a16ed456d2.png)
 ![LOGIN - Google Chrome 04_08_2021 9_29_03](https://user-images.githubusercontent.com/88303467/128203193-672cb4b1-be73-4512-ba69-ac75eba6e2f0.png)
 ![Document - Google Chrome 04_08_2021 9_28_28](https://user-images.githubusercontent.com/88303467/128203204-e7180833-9f24-4841-9d95-5f0e1579032f.png)
