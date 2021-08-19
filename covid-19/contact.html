@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="contact.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>If any difficulty contact as </p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="images\main-symp-img.png" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="myform" method="post" action="abc.jsp" onsubmit="returnform()">
+            <div class="alert alert-primary" role="alert">
+                
+            </div>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname"> Email id</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="Trichy">Trichy-0431-241</option>
+                <option value="Chennai">chennai-102 OR 108</option>
+                 <option value="Coimbator">coimbatore- +91-11-23978046</option>
+                 <option value="Madurai">Madurai-0452-2546100</option>
+                 <option value="other">other</option>
+              </select>
+              <label for="subject">HELP</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    
+        
+    </body>
+    </html>
+
